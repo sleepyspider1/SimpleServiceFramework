@@ -1,0 +1,1 @@
+sc create "My Sample Service" binPath= C:\repos\SimpleServiceFramework\x64\Debug\SimpleServiceFramework.exe
