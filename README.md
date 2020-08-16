@@ -1,10 +1,10 @@
-# SimpleServiceFramework
-Cross platform service / daemon framework
+# Simple Service Framework
+Cross platform service / daemon framework.
 
 ## Description
 * An easy to use C++ framework to create a service / daemon.
 
-## Platforms
+## Supported Platforms
 * Windows 10
 * Linux
 * MacOSX Catalina
