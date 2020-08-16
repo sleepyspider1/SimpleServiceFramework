@@ -20,8 +20,8 @@ public:
 private:
     static std::string _serviceName;
 	static void ServiceMain(DWORD argc, LPTSTR* argv);
-	static DWORD ServiceWorkerThread(LPVOID lpParam);
-	static void ServiceCtrlHandler(DWORD CtrlCode);
+	static DWORD WINAPI ServiceWorkerThread(LPVOID lpParam);
+	static void WINAPI ServiceCtrlHandler(DWORD CtrlCode);
 	static SERVICE_STATUS        _serviceStatus;
 	static SERVICE_STATUS_HANDLE _statusHandle;
 	static HANDLE                _serviceStopEvent;
