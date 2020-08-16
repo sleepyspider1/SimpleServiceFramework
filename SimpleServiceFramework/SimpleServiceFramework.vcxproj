@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinuxDaemon.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ServiceFactory.cpp" />
+    <ClCompile Include="WindowsService.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinuxDaemon.h" />
+    <ClInclude Include="Service.h" />
+    <ClInclude Include="ServiceFactory.h" />
+    <ClInclude Include="WindowsService.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +150,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="SimpleServiceFramework.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
